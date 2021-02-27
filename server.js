@@ -31,7 +31,7 @@ const init = async () => {
   //Start the app and store the instance on the server variable
   const server = Hapi.server({
     port: process.env.PORT,
-    host: "glacial-forest-78349.herokuapp.com",
+    host: "localhost",
   });
 
   await server.start();
